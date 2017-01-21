@@ -24,7 +24,7 @@ for row in reader:
 	# just print third second column 
 	print row[2]
 
-	# 
+	# add keys to dictionary, if key doesn't exist we equit it to 0 and then add 1
 	os_counts[row[2]] = os_counts.get(row[2],0)+1
 
 # Show the dictionary
